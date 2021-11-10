@@ -43,6 +43,9 @@ http
       case "/style.css":
         serveStaticFile(res, "/style.css", "text/css");
         break;
+      case "/script.js":
+        serveStaticFile(res, "/script.js", "text/js");
+        break;
       case "/memes":
         serveStaticFile(res, "/video/students/memes.mp4", "MPEG-4"); //it plays only in Firefox browser, in other browser it will download the file
         break;
