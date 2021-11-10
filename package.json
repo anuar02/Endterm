@@ -1,0 +1,19 @@
+{
+  "name": "endterm",
+  "version": "1.0.0",
+  "description": "There is a server, which hosts home, about pages, memes video and images from gallery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuar02/Endterm.git"
+  },
+  "author": "Bayakhmetov Anuar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuar02/Endterm/issues"
+  },
+  "homepage": "https://github.com/anuar02/Endterm#readme"
+}
