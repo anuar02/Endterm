@@ -1,0 +1,53 @@
+html {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+body {
+  background: rgb(244, 168, 200);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(244, 168, 200, 1) 0%,
+    rgba(0, 109, 246, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(244, 168, 200, 1) 0%,
+    rgba(0, 109, 246, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(244, 168, 200, 1) 0%,
+    rgba(0, 109, 246, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8",endColorstr="#006df6",GradientType=1);
+}
+
+h1 {
+  font-size: 46px;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(134, 68, 182),
+    rgb(0, 208, 255),
+    rgb(35, 35, 187),
+    rgb(189, 0, 189),
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Libre Baskerville", serif;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+}
+
+hr {
+  margin-left: 0;
+  width: 80px;
+  background: #000;
+}
